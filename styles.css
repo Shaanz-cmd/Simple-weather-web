@@ -80,4 +80,11 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 3px black;
+}
+
+.city:hover {
+    scale: 1.01;
+    cursor: pointer;
 }
