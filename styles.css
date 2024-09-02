@@ -19,7 +19,32 @@ body {
 
 .seasons {
     width: 50%;
-    background-color: green;
+    display: flex;
+}
+
+.season {
+    width: 25%;
+    height: 100%;
+}
+
+.winter {
+    background: url("https://images.unsplash.com/photo-1551582045-6ec9c11d8697?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+.spring {
+    background: url("https://images.unsplash.com/photo-1554738458-6c6ae81806fb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+.summer {
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+.autumn {
+    background: url("https://images.unsplash.com/photo-1476842321362-f5bb3a58ab25?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
 }
 
 .mainImg {
