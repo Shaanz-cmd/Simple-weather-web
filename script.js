@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const apiKey = "0fffe31de1dbf462fbf61e7fccf3b878";
-  const cities = ["London", "Tokyo", "New York", "Cape Town"];
+  const cities = ["London", "Tokyo"];
   const weatherDiv = document.getElementById("cities");
   const search = document.getElementById("search");
   const searchBtn = document.getElementById("searchBtn");
@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     for (let i = 0; i < cities.length; i++) {
       const city = cities[i];
-      console.log(city);
       const data = await fetchWeather(city);
 
       if (data) {
