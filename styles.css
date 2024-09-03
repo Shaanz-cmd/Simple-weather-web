@@ -103,10 +103,16 @@ body {
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     border: none;
+    outline: none;
 }
 
 .searchBtn {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
+    border: none;
+    outline: none;
     width: 90px;
+    font-size: large;
+    opacity: 0.9;
+    cursor: pointer;
 }
