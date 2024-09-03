@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   searchBtn.addEventListener("click", () => {
     let city = search.value;
     cities.push(city);
-    console.log(city)
+    getWeatherForCities();
   });
 
   // Function to fetch weather data for a single city
