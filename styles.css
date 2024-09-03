@@ -88,3 +88,25 @@ body {
     scale: 1.01;
     cursor: pointer;
 }
+
+.search {
+    width: 90%;
+    height: 48px;
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+#search {
+    flex: 1;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: none;
+}
+
+.searchBtn {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 90px;
+}
